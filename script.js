@@ -86,6 +86,7 @@ const perspectiveText = {
 };
 
 const perspectiveOutput = document.querySelector(".perspective-output");
+
 document.querySelectorAll(".perspective-button").forEach((button) => {
   button.addEventListener("click", () => {
     document.querySelectorAll(".perspective-button").forEach((item) => item.classList.remove("active"));
@@ -101,6 +102,7 @@ const changeText = {
 };
 
 const changeOutput = document.querySelector(".change-output");
+
 document.querySelectorAll(".change-button").forEach((button) => {
   button.addEventListener("click", () => {
     document.querySelectorAll(".change-button").forEach((item) => item.classList.remove("active"));
